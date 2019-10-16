@@ -1,0 +1,46 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "random facts",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HistoryFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell me a history fact",
+                        "history"
+                    ]
+                },
+                {
+                    "name": "ScienceFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell me a science fact",
+                        "science"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
